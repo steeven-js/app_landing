@@ -92,7 +92,6 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Me contacter',
   links: [
     {href: 'https://steeven-jacques.vercel.app/contact', label: 'Email', value: 'jacques.steeven@gmail', target: '_blank' },
-    {href: '/', label: 'Portable', value: '+596 696 30 76 31' },
   ],
 };
 
