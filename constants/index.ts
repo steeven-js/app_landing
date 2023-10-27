@@ -1,10 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'home', label: 'Accueil' },
+  { href: '/', key: 'fonctionalités', label: 'Fonctionalités' },
   { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'contact_us', label: 'Me contacter' },
 ];
 
 // CAMP SECTION
@@ -18,59 +17,61 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Base de données',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Explorez une vaste bibliothèque de plantes médicinales locales et régionales, chacune accompagnée de descriptions détaillées, de leurs bienfaits médicaux, de leurs modes de préparation et de leurs utilisations traditionnelles. Une ressource complète pour les amoureux des plantes médicinales.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Recherche avancée',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Trouvez facilement la plante médicinale dont vous avez besoin grâce à notre fonction de recherche avancée. Filtrez les résultats en fonction de critères spécifiques tels que les affections traitées, les méthodes de préparation, et bien plus encore, pour une recherche précise.",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Conseils d\'utilisation personnalisés',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Recevez des recommandations personnalisées basées sur vos besoins de santé individuels. Notre application vous guide pour choisir les plantes médicinales appropriées en fonction de vos préférences et de vos conditions de santé, vous aidant ainsi à optimiser votre bien-être.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Liste de fournisseurs locaux',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Localisez rapidement des fournisseurs de confiance pour acheter les plantes médicinales dont vous avez besoin. Notre liste de fournisseurs locaux vous met en contact avec des sources authentiques à proximité, vous permettant de soutenir les commerçants locaux tout en accédant à des produits de qualité.',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'A propos de l\'application',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Comment ça marche ?',
+      'Services',
+      'Me contacter',
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'A propos de moi',
+    links: [
+      'Mon portfolio',
+      'Mon CV',
+      'Mes projets',
+      'Mes articles'
+    ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Me contacter',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Email', value: 'jacques.steeven@gmail' },
+    { label: 'Portable', value: '+596 696 30 76 31' },
   ],
 };
 
@@ -81,6 +82,5 @@ export const SOCIALS = {
     '/instagram.svg',
     '/twitter.svg',
     '/youtube.svg',
-    '/wordpress.svg',
   ],
 };
