@@ -14,9 +14,9 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-40 lg:bold-64">Explorez la Nature Médicinale</h1>
+        <h1 className="bold-40 lg:bold-64 text-green-50">Explorez la Nature Médicinale</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          "Découvrez le monde des plantes médicinales avec notre application pratique. Identifiez, apprenez et tirez parti des pouvoirs curatifs de la nature."
+          "Découvrez le monde des plantes médicinales avec mon application pratique. Identifiez, apprenez et tirez parti des pouvoirs curatifs des plantes médicinales."
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
