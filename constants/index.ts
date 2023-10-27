@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Accueil' },
-  { href: '/', key: 'fonctionalités', label: 'Fonctionalités' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'contact_us', label: 'Me contacter' },
+  { href: '/#Features', key: 'features', label: 'Fonctionnalités' },
+  { href: '/#Download', key: 'download', label: 'Téléchargement' },
+  { href: 'https://steeven-jacques.vercel.app/contact', key: 'contact_us', label: 'Me contacter', target: '_blank' },
 ];
 
 // CAMP SECTION
