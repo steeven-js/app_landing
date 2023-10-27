@@ -51,27 +51,48 @@ export const FOOTER_LINKS = [
   {
     title: 'A propos de l\'application',
     links: [
-      'Comment ça marche ?',
-      'Services',
-      'Me contacter',
+      {
+        label: 'Comment ça marche ?',
+        url: '/',
+      },
+      {
+        label: 'Services',
+        url: '/#Features',
+      },
     ],
   },
   {
     title: 'A propos de moi',
     links: [
-      'Mon portfolio',
-      'Mon CV',
-      'Mes projets',
-      'Mes articles'
+      {
+        label: 'Mon portfolio',
+        url: '/https://steeven-jacques.vercel.app',
+      },
+      {
+        label: 'Mon CV',
+        url: 'https://firebasestorage.googleapis.com/v0/b/steeven-portfolio.appspot.com/o/CV%20Jacques%20Steeven_compressed.pdf?alt=media&token=82b6934f-e38c-4e12-8201-3c559341f0a1',
+        target: '_blank',
+      },
+      {
+        label: 'Mes projets',
+        url: 'https://steeven-jacques.vercel.app/projects',
+        target: '_blank',
+      },
+      {
+        label: 'Mes articles',
+        url: 'https://steeven-jacques.vercel.app/blog',
+        target: '_blank',
+      },
     ],
   },
 ];
 
+
 export const FOOTER_CONTACT_INFO = {
   title: 'Me contacter',
   links: [
-    { label: 'Email', value: 'jacques.steeven@gmail' },
-    { label: 'Portable', value: '+596 696 30 76 31' },
+    {href: 'https://steeven-jacques.vercel.app/contact', label: 'Email', value: 'jacques.steeven@gmail', target: '_blank' },
+    {href: '/', label: 'Portable', value: '+596 696 30 76 31' },
   ],
 };
 

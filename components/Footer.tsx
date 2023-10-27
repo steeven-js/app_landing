@@ -9,16 +9,16 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="eco.svg" alt="logo" width={74} height={29}/>
+            <Image src="eco.svg" alt="logo" width={74} height={29} />
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
-              <FooterColumn title={columns.title}>
+              <FooterColumn title={columns.title} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
-                      {link}
+                    <Link href={link.url} key={link.label} target={link.target || "_self"} >
+                      {link.label}
                     </Link>
                   ))}
                 </ul>
@@ -29,8 +29,9 @@ const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
                   <Link
-                    href="/"
+                    href={link.href}
                     key={link.label}
+                    target={link.target || "_self"}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >
                     <p className="whitespace-nowrap">
